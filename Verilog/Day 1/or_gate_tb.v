@@ -2,7 +2,7 @@
 module or_gate_tb;
   reg a,b;
   wire y;
-//instantiate and_gate module
+//instantiate or_gate module
  or_gate orgate(.a(a),.b(b),.y(y));
 //dump and monitor informations
 initial begin 
