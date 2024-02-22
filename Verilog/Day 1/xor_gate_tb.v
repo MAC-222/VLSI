@@ -3,7 +3,7 @@ module xor_gate_tb;
   reg a,b;
   wire y;
 //instantiate xor_gate module
- xor_gate norgate(.a(a),.b(b),.y(y));
+ xor_gate xorgate(.a(a),.b(b),.y(y));
 //dump and monitor informations
 initial begin 
   $monitor("a=%0d b=%0d y=%0d",a,b,y);
