@@ -1,12 +1,12 @@
 // Code not gate testbench 
 module not_gate_tb;
-  reg a,b;
+  reg a;
   wire y;
 //instantiate not_gate module
  not_gate notgate(.a(a),.y(y));
 //dump and monitor informations
 initial begin 
-  $monitor("a=%0d b=%0d y=%0d",a,b,y);
+  $monitor("a=%0d y=%0d",a,y);
   $dumpfile("not_gate.vcd");
   $dumpvars(1,not_gate_tb);
 end
