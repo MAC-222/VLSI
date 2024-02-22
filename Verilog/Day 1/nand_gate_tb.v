@@ -2,7 +2,7 @@
 module nand_gate_tb;
   reg a,b;
   wire y;
-//instantiate and_gate module
+//instantiate nand_gate module
  nand_gate nandgate(.a(a),.b(b),.y(y));
 //dump and monitor informations
 initial begin 
