@@ -1,7 +1,7 @@
 module parity_gen_odd_tb;
   reg a,b,c;
   wire p;
-  parity_gen_odd pe(.a(a),.b(b),.c(c),.p(p));
+  parity_gen_odd po(.a(a),.b(b),.c(c),.p(p));
   initial begin
     a=0; b=0; c=0;
     #10
