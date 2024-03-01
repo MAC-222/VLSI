@@ -1,4 +1,4 @@
-module even_tb;
+module evenorodd_tb;
   reg[7:0]a;
   even pc(.a(a));
   initial begin
