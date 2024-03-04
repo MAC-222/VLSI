@@ -1,5 +1,5 @@
 module swap_without_third_variable;
-     int x=11,y=89, temp;
+     int x=11,y=89;
      initial begin 
     x = x + y; 
     y = x - y; 
