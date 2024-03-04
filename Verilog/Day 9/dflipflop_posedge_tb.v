@@ -1,7 +1,7 @@
 module dflipflop_posedge_tb;
   reg clk,d;
   wire q;
-  dflipflop dff(
+  dflipflop_posedge dff(
     .clk(clk),
     .d(d),
     .q(q)
