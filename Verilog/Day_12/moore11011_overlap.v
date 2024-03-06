@@ -1,4 +1,4 @@
-module moore11011(
+module moore11011_(
   input x,clk,reset,
   output out,present,next);
   reg out;
