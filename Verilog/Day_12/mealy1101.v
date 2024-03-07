@@ -58,5 +58,3 @@ module mealy1101(
       endcase
     end
 endmodule
-         
-        
