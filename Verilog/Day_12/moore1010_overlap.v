@@ -2,7 +2,7 @@ module moore1010_overlap(
   input d,clk,reset,
   output out,present,next);
   reg out;
-  reg [3:0]present,next;
+  reg [2:0]present,next;
   parameter [2:0]s0 = 3'b000,
                  s1 = 3'b001,
                  s2 = 3'b010,
