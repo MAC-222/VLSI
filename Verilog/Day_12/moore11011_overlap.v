@@ -1,4 +1,4 @@
-module moore11011_(
+module moore11011_overlap(
   input x,clk,reset,
   output out,present,next);
   reg out;
