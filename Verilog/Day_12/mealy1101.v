@@ -43,11 +43,17 @@ module mealy1101(
           end
         s3:
           begin 
-            out = 1;
+           // out = 1;
             if (x==1)
+              begin
               next=s0;
+              out =1;
+              end
             else
+              begin
               next=s0;
+              out =0;
+          end
           end
       endcase
     end
