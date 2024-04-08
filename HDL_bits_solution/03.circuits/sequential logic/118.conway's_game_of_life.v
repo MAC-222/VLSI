@@ -11,8 +11,8 @@ module top_module(
         if(load)
             q <= data;
         else begin
-            for(int i=0; i<256; i++) begin  sum
-                if(i == 0)  
+            for(int i=0; i<256; i++) begin  
+                if(i == 0) 
                     sum = q[1] + q[16] + q[17] + q[240] + q[241] + q[15] + q[31] + q[255];
                 else if(i == 15)   
                     sum = q[14] + q[16] + q[0] + q[240] + q[254] + q[30] + q[31] + q[255];
