@@ -1,4 +1,3 @@
-// Code your design here
 module unboundedqueue;
   int j;
   int q[$] = {0,4,6,8,12};
