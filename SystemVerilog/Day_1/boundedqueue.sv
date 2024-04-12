@@ -24,6 +24,8 @@ module boundedqueue;
     
     m.push_front(3);
     $display(m);
+
+     $display(m.size);
     
     //     m.push_back(98);
 //     $display(m);
