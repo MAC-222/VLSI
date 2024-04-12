@@ -1,4 +1,3 @@
-// Code your design here
 module dy;
   int d1[];
   int d[] = '{9,1,8,3,4,4};
