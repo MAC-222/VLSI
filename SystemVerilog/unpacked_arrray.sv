@@ -17,7 +17,7 @@ module array;
     $display(v1);
     
     //array index 4 of unpacked
-    v1[4][0] = 1;
+    v1[4][3:0] = 1;
     $display(v1);
   end
 endmodule
