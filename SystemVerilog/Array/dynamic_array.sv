@@ -4,7 +4,7 @@ module dynamic_array;
   initial begin
     a = new[10];
     a = '{10,11,12,13,15,16,18,19,20,29};
-    
+    $display("array %0p",a);
     foreach(a[i])
       begin
         $display("value of a[%0d] = %0d",i,a[i]);
