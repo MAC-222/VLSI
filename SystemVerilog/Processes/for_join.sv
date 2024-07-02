@@ -21,7 +21,5 @@ module fork_join;
     end
    
   join
-     $display("t=%0d join",$time); 	
-    $display("--------------------------------");
   end
 endmodule
