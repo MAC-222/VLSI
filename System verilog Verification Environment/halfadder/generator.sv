@@ -6,7 +6,7 @@
   endfunction
   
   task gener;
-    //repeat(3);
+    repeat(3);
     begin
       pkt= new();
       pkt.randomize();
