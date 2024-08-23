@@ -28,4 +28,4 @@ module poly_ex();
     p1[0].display(); 
     p1[1].display();
   end
-endmodule:poly_ex
+endmodule
